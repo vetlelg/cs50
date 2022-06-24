@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+    </head>
+    <body>
+
+        <div class="jumbotron">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+
+                <!-- TODO: Add multiple choice question here -->
+                <h3>What is the capital of Norway?</h3>
+                <div id="question1-result"></div>
+                <button class="question1-answer click" value="Oslo">Oslo</button>
+                <button class="question1-answer click" value="Stockholm">Stockholm</button>
+                <button class="question1-answer click" value="Copenhagen">Copenhagen</button>
+                
+                <h3>Who is the president of the United States?</h3>
+                <div id="question2-result"></div>
+                <button class="question2-answer click" value="Joe Biden">Joe Biden</button>
+                <button class="question2-answer click" value="Adolf Hitler">Adolf Hitler</button>
+                <button class="question2-answer click" value="Erna Solberg">Erna Solberg</button>
+                
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+
+                <!-- TODO: Add free response question here -->
+                <h3>What is the color of grass?</h3>
+                <div id="question3-result"></div>
+                <input class="question3-answer change" type="text">
+                <button class="question3-answer">Confirm</button>
+                
+                <h3>What is the color of the sky?</h3>
+                <div id="question4-result"></div>
+                <input class="question4-answer change" type="text">
+                <button class="question4-answer">Confirm</button>
+
+            </div>
+
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

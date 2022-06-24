@@ -1,0 +1,28 @@
+sort1 uses:
+Bubble sort
+
+How do you know?:
+Best case scenario: Ω(n)
+Worst case scenario: O(n^2)
+It takes much longer to sort the random and reversed lists of values.
+Bubble sort takes Ω(n) to sort an already sorted list, but takes O(n^2) to sort a reversed list.
+In practice it looks like bubble sort uses longer time to sort the random list than the reversed list.
+After some googling this may be because of something called branch prediction.
+
+sort2 uses:
+Merge sort
+
+How do you know?:
+Best case scenario: Ω(n*log(n))
+Worst case scenario: O(n*log(n))
+It takes basically the same time to sort both the sorted, reversed and random lists.
+Merge sort will take shorter time than selection sort.
+
+sort3 uses:
+Selection sort
+
+How do you know?:
+Best case scenario: Ω(n^2)
+Worst case scenario: O(n^2)
+It takes basically the same time to sort both the sorted, reversed and random lists.
+Selection sort takes longer time than merge sort.

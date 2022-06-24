@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+nav {
+    background-color: #406997;
+    color: white;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    color: #ED8B00;
+}
+
+h1 {
+    margin: auto;
+}
+
+header, main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80vw;
+    padding: 0;
+    margin: auto;
+}
+
+table {
+    width: 80vw;
+}
+
+footer {
+    color: white;
+    background-color: #406997;
+    width: 100vw;
+    bottom: 0;
+    position: absolute;
+}
+
+button {
+    background-color: #406997;
+    color: white;
+    border: none;
+    margin: 10px;
+    padding: 5px;
+}
+
